@@ -20,7 +20,7 @@ public:
         int len=INT_MIN;
         
 
-        //This sliding window approach wont work for negative numbers;
+        //This sliding window approach wont work for negative numbers instead use hashing to  find the  max length of  subarray with target sum
         for(int i=0;i<n;i++){
             
             prefixSum+=nums[i];
